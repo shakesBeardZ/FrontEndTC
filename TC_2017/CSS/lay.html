@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LayOut</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: #F00;
+            text-align: center;
+            padding: 20px 100px;
+        }
+        
+        #main-content {
+            background: #FFF;
+            height: 500px;
+        }
+        
+        aside {
+            background: #457812;
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+        
+        #main-section {
+            background: #639FFF;
+            width: 70%;
+            float: left;
+            height: 100%;
+        }
+        
+        #main-article {
+            height: 300px;
+            background: #521ddd;
+        }
+        
+        #extra-article {
+            height: 200px;
+            background: #fdd859;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>header</header>
+
+    <section id="main-content">
+        <aside>
+            Aside
+        </aside>
+
+        <section id="main-section">
+            <article id="main-article">
+                <p>Main Content</p>
+            </article>
+            <article id="extra-article">
+                Extra Content
+            </article>
+        </section>
+    </section>
+
+    <footer>
+        Footer
+    </footer>
+
+</body>
+
+</html>

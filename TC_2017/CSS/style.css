@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  element selector */
+
+p {
+    font-size: 1.5em;
+}
+
+
+/*  id selector */
+
+#element {
+    background: #2BD728;
+}
+
+
+/*  class selector */
+
+.class-element {
+    color: #00FFE2;
+}
+
+
+/*  chiled selector */
+
+#parent>#child {
+    background: #0F0;
+}
+
+
+/*  sibling  selector */
+
+h1~#sibling {
+    color: #870C13;
+}
+
+
+/*  next selector means after */
+
+ul+p {
+    color: #F00;
+}
+
+
+/*  attribute selector */
+
+[type="attribute-selector"] {
+    color: #F08418;
+}
